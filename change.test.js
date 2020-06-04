@@ -1,4 +1,6 @@
-const changeHandler = require('./change');
+const {ChangeHandler} = require('./changehandler.js'); //this is the name of the class in th changehandler.js file that was given. 
+//ChangeHandler is the class from the script file that needs to be imported into this file. Adding the {} around it is called destructuring. 
+//Because theres nothing in your current change.js file, it won't be able to run any tests. 
 
 describe(coins, function() {
     test('Return amountDue() based on number of coins entered, cashTendered equals zero', function() {
